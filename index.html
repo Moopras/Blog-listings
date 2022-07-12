@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Listing View</title>
+    <link rel="stylesheet" href= "style.css"/>
+</head>
+<header>
+    <div :class = "headcontent">
+        <h1 :class ="head">BlogMania</h1> 
+        <ul :class = "list">
+            <li :class="contact" a href ="about.blank">Twitter</li>
+            <li :class="contact" a href ="about.blank">Github</li>
+            <li :class="contact" a href ="about.blank">Figma</li>
+        </ul>
+    </div>
+</header>
+
+<body>
+   <script src = "https://unpkg.com/vue@3.0.5"></script>
+    <script src="app.js"></script>
+    <section>
+        <h3 class ="latprev">Latest</h3>
+        <div .class="blog-entry1">
+            <div id = 'entry1'.class="blogentry1">
+                <p>Vuejs VS React:</p>
+                <p>Explicit Difference</p>
+            </div>
+            <div id = "posted">
+                <p>Posted 7mins ago.10 mins read</p>
+            </div>
+            <div .class="lorem">
+                <h3>Vuejs VS React: Explicit Difference</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Cumque iure nam velit. Quisquam ea porro nemo, 
+                    eos perspiciatis cupiditate praesentium dolor 
+                    fugiat numquam veniam repellat, maiores facere debitis velit enim... Lorem ipsum dolor, 
+                    sit amet consectetur adipisicing elit. Nostrum, 
+                    harum neque consequatur temporibus consectetur molestiae 
+                    maiores odio dolor laudantium soluta vero excepturi dignissimos libero...</p>
+                   <a href ="blog-detail.html" id = "read">Read Article</a>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h3 class ="latprev">Previous entries</h3>
+        <div .class = "other-entries">
+            <div .class="blogentry2">
+                <div id="entry2card" >
+                    <p>Optimising Bootstrap for Web Design</p>
+                    
+                </div>
+                <div id = "posted">
+                    <p>Posted Yesterday. 7mins read</p>
+                </div>
+                <div id="entry2cont">
+                    <h3>Optimising Bootstrap for Web Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Cumque iure nam velit. Quisquam ea porro nemo, 
+                    eos perspiciatis cupiditate praesentium dolor 
+                    fugiat numquam veniam repellat, maiores facere debitis velit enim...</p>
+                    <a href = "about.blank" id = "read">Read Article</a>
+                </div>
+            </div>
+            <div .class="blogentry2">
+                <div id="entry3card" >
+                    <p>Optimising Bootstrap for Web Design</p>
+                </div>
+                <div id = "posted">
+                    <p>Posted Yesterday. 7mins read</p>
+                    
+                </div>
+                <div id="entrycont">
+                    <h3>Optimising Bootstrap for Web Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Cumque iure nam velit. Quisquam ea porro nemo, 
+                    eos perspiciatis cupiditate praesentium dolor 
+                    fugiat numquam veniam repellat, maiores facere debitis velit enim...</p>
+                    <a href = "about.blank" id = "read">Read Article</a>
+                </div>
+            </div>
+            <div .class="blogentry2">
+                <div id="entry4card" >
+                    <p>Optimising Bootstrap for Web Design</p>
+                </div>
+                <div id = "posted">
+                    <p>Posted Yesterday. 7mins read</p>
+                </div>
+                <div id="entry4cont">
+                    <h3>Optimising Bootstrap for Web Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Cumque iure nam velit. Quisquam ea porro nemo, 
+                    eos perspiciatis cupiditate praesentium dolor 
+                    fugiat numquam veniam repellat, maiores facere debitis velit enim...</p>
+                    <a href = "about.blank" id = "read">Read Article</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
